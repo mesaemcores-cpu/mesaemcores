@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa em Cores - Catálogo</title>
+    <style>
+        /* Estilização Geral (CSS) */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fdf6f0; color: #5a3e2b; }
+        header { background-color: #d4a373; color: white; text-align: center; padding: 20px; }
+        
+        .container { padding: 20px; display: flex; flex-wrap: wrap; justify-content: center; }
+        
+        /* Cartão de Produto */
+        .produto-card { 
+            background: white; border-radius: 10px; margin: 15px; width: 280px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; text-align: center;
+        }
+        .produto-card img { width: 100%; height: 200px; object-fit: cover; }
+        .produto-info { padding: 15px; }
+        .preco { font-weight: bold; color: #bc6c25; font-size: 1.2em; }
+        
+        /* Botão de Compra */
+        .btn-comprar { 
+            display: inline-block; background-color: #25d366; color: white; 
+            padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mesa em Cores</h1>
+    <p>Decoração e Elegância para a sua Mesa</p>
+</header>
+
+<div class="container">
+    <div class="produto-card">
+        <img src="https://via.placeholder.com/280x200?text=Jogo+Americano" alt="Jogo Americano">
+        <div class="produto-info">
+            <h3>Jogo Americano Linho</h3>
+            <p>Elegância artesanal para o seu almoço.</p>
+            <p class="preco">25,00 €</p>
+            <a href="https://wa.me/SEUNUMERO?text=Olá! Gostaria de encomendar o Jogo Americano Linho" class="btn-comprar">Encomendar via WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="produto-card">
+        <img src="https://via.placeholder.com/280x200?text=Guardanapos" alt="Guardanapos">
+        <div class="produto-info">
+            <h3>Conjunto Guardanapos</h3>
+            <p>100% algodão com bordado delicado.</p>
+            <p class="preco">15,00 €</p>
+            <a href="https://wa.me/5566999961630text=Olá! Gostaria de encomendar os Guardanapos" class="btn-comprar">Encomendar via WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
